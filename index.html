@@ -9,13 +9,13 @@
 </head>
 
 <body>
-    <div class="page">
+    <div class="root">
 
         <header class="header">
-            <a href="#" target="blank" class="logo logo_place_header"></a>
+            <a href="#" target="_blank" class="logo logo_place_header"></a>
             <h1 class="header__title">Научиться учиться</h1>
-            <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни? <a class="header__link" href="#" target="blank">Узнать &rarr;</a></p>
-            <img class="header__main-illustration" src=images/header-image.png alt="Здесь должна быть картинка">
+            <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни? <a class="header__link" href="#" target="_blank">Узнать &rarr;</a></p>
+            <img class="header__main-illustration" src=images/header-image.png alt="Картина Ф.П.Решетникова Опять двойка">
             <div class="header__square-pic rotation"></div>
         </header>
 
@@ -37,27 +37,27 @@
                 <p class="section-subtitle">Пять практик от Барбары Оакли</p>
                 <div class="cards">
                     <div class="cards__item">
-                        <img class="cards__image" src="./images/cards-attention.png" alt="Здесь должна быть картинка">
+                        <img class="cards__image" src="./images/cards-attention.png" alt="Два вида внимания">
                         <h3 class="cards__title">Два вида внимания</h3>
                         <p class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
                     </div>
                     <div class="cards__item">
-                        <img class="cards__image" src="./images/cards-recall.png" alt="Здесь должна быть картинка">
+                        <img class="cards__image" src="./images/cards-recall.png" alt="Вспоминайте изученное">
                         <h3 class="cards__title">Recall</h3>
                         <p class="cards__description">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</p>
                     </div>
                     <div class="cards__item">
-                        <img class="cards__image" src="./images/cards-interliving.png" alt="Здесь должна быть картинка">
+                        <img class="cards__image" src="./images/cards-interliving.png" alt="Интерливинг">
                         <h3 class="cards__title">Интерливинг</h3>
                         <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
                     </div>
                     <div class="cards__item">
-                        <img class="cards__image" src="./images/cards-question.png" alt="Здесь должна быть картинка">
+                        <img class="cards__image" src="./images/cards-question.png" alt="Вопросы">
                         <h3 class="cards__title">Вопросы</h3>
                         <p class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.</p>
                     </div>
                     <div class="cards__item">
-                        <img class="cards__image" src="./images/cards-competence.png" alt="Здесь должна быть картинка">
+                        <img class="cards__image" src="./images/cards-competence.png" alt="Иллюзия компетентности">
                         <h3 class="cards__title">Иллюзия компетентности</h3>
                         <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.</p>
                     </div>
@@ -68,8 +68,8 @@
                 <h2 class="section-title">Видео на TED</h2>
                 <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
                 <div class="video__iframes">
-                    <iframe class="video__iframe" width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <iframe class="video__iframe" width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </section>
 
@@ -90,7 +90,7 @@
             <section class="feynman">
                 <h2 class="feynman__title">Метод Фейнмана</h2>
                 <p class="feynman__subtitle">Выучить и не забыть</p>
-                <a class="feynman__link" href="#" target="blank">Подробнее &rarr;</a>
+                <a class="feynman__link" href="#" target="_blank">Подробнее &rarr;</a>
                 <div class="feynman__image"></div>
             </section>
 
@@ -136,18 +136,18 @@
             </section>
 
             <section class="khan">
-                <article class="khan__container">
+                <div class="khan__container">
                     <p class="khan__author">Салман Хан</p>
                     <h2 class="khan__title">Весь мир - школа</h2>
-                    <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят
-                        успех в школе, карьере и жизни.</p>
+                    <blockquote class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят
+                        успех в школе, карьере и жизни.</blockquote>
                     <p class="khan__quote-author">Джордж Лукас</p>
                     <p class="khan__quote-author-subline">Кинорежиссер, продюссер</p>
                     <div class="khan__book-container">
                         <div class="khan__book-pic"></div>
-                        <a href="#" class="khan__buy-link" target="blank">Купить книгу &rarr;</a>
+                        <a href="#" class="khan__buy-link" target="_blank">Купить книгу &rarr;</a>
                     </div>
-                </article>
+                </div>
             </section>
 
             <section class="kaufman">
@@ -202,24 +202,24 @@
                 <h2 class="section-title">Полезные ресурсы</h2>
                 <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
                 <div class="resources__logo-zone">
-                    <img src="./images/logo/resources-arzamas.svg" alt="Здесь картинка" class="resources__logo">
-                    <img src="./images/logo/resources-n1.svg" alt="Здесь картинка" class="resources__logo">
-                    <img src="./images/logo/resources-strelka.svg" alt="Здесь картинка" class="resources__logo">
-                    <img src="./images/logo/resources-polka.svg" alt="Здесь картинка" class="resources__logo">
+                  <a href="#" target="_blank"><img class="resources__logo" src="./images/logo/resources-arzamas.svg" alt="Арзамас"></a>
+                  <a href="#" target="_blank"><img class="resources__logo" src="./images/logo/resources-n1.svg" alt="Н+1"></a>
+                  <a href="#" target="_blank"><img class="resources__logo" src="./images/logo/resources-strelka.svg" alt="Стрелка"></a>
+                  <a href="#" target="_blank"><img class="resources__logo" src="./images/logo/resources-polka.svg" alt="Полка"></a>
                 </div>
             </section>
         </main>
         <footer class="footer">
             <div class="footer__columns">
                 <div class="footer__column footer__column_content_copyright">
-                    <a href="#" class="logo logo_place_footer" target="blank"></a>
+                    <a href="#" class="logo logo_place_footer" target="_blank"></a>
                     <p class="footer__author">&copy; 2019. Виктор Абанькин</p>
                 </div>
                 <nav class="footer__column footer__column_content_info">
                     <h3 class="footer__column-heading">О Практикуме</h3>
                     <ul class="footer__column-links">
-                        <li><a class="footer__column-link" href="#" target="blank">Главная</a></li>
-                        <li><a class="footer__column-link" href="#" target="blank">Концепция</a></li>
+                        <li><a class="footer__column-link" href="#" target="_blank">Главная</a></li>
+                        <li><a class="footer__column-link" href="#" target="_blank">Концепция</a></li>
                         <li><a class="footer__column-link" href="#" target="blank">Наставники</a></li>
                     </ul>
                 </nav>
@@ -227,15 +227,15 @@
                     <h3 class="footer__column-heading">Соцсети</h3>
                     <ul class="footer__column-links">
                         <li>
-                            <a class="footer__column-link" href="#" target="blank">
+                            <a class="footer__column-link" href="#" target="_blank">
                                 <img class="footer__social-icon" src="./images/facebook_color_white.svg" alt="Facebook">Facebook </a>
                         </li>
                         <li>
-                            <a class="footer__column-link" href="#" target="blank">
+                            <a class="footer__column-link" href="#" target="_blank">
                                 <img class="footer__social-icon" src="./images/vk_color_white.svg" alt="ВКонтакте">ВКонтакте</a>
                         </li>
                         <li>
-                            <a class="footer__column-link" href="#" target="blank">
+                            <a class="footer__column-link" href="#" target="_blank">
                                 <img class="footer__social-icon" src="./images/instagram_color_white.svg" alt="Instagram">Instagram</a>
                         </li>
                     </ul>
