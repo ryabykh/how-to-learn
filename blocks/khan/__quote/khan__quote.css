@@ -1,17 +1,7 @@
 .khan__quote {
-<<<<<<< HEAD
     width: 790px;
     margin: 50px 0 36px 0;
     line-height: 34px;
     font-size: 24px;
     font-weight: normal;
-=======
-    margin: 0;
-    width: 790px;
-    line-height: 34px;
-    font-size: 24px;
-    font-weight: normal;
-    margin-top: 50px;
-    margin-bottom: 36px;
->>>>>>> 5072ef066c9ece016fb63046cb966129a40bddff
 }

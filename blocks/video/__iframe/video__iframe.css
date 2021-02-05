@@ -1,9 +1,6 @@
 .video__iframe {
-<<<<<<< HEAD
     width: 515px;
     height: 316px;
-=======
->>>>>>> 5072ef066c9ece016fb63046cb966129a40bddff
     margin-right: 20px;
     position: relative;
     transform: translateY(50px);
@@ -11,8 +8,4 @@
 
 .video__iframe:last-child {
     margin-right: 0;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 5072ef066c9ece016fb63046cb966129a40bddff
